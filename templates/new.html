@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loged in page</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wellcome to techworld</title>
+</head>
+<body>
+    <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
+  </head>
+  <body>
+   
+    <main class="form-signin">
+        <form action="/signedup" method="post">
+        {% csrf_token %}  
+          <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="text" name="name" class="form-control" id="floatingInput" placeholder="username">
+            <label for="floatingInput">username</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" name="password"password class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+          <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+        </form>
+      </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <style>
+        html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+
+
+  </body>
+</html>
+</body>
+</html>
+</body>
+</html>
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+{% if message %}
+   <script>
+       alert(`{{message}}`);
+   </script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+</head>
+<body>
+    <div class="container">
+    <form action="/logedin" method="post">
+    {% csrf_token %}
+        <input type="email"  name="email"  placeholder=" Enter your Email"><br>
+        <input type="password" name="password" placeholder="Enter your password"><br>
+        <input type="submit" value="login"><br>
+    </form>
+    <input type="submit" onclick="location.href=`{% url 'signup' %}`" value="signup">      
+    <p style="color: black;padding: 10px 0;">Forgot Password? <a href="/reset/" style="color: black;">Click Here to Reset</a></p>
+ 
+</div>
+</body>
+</html>
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+{% if message %}
+   <script>
+       alert(`{{message}}`);
+   </script>
+{% endif %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+    <!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"
+  </head>
+  <body>
+   
+    <main class="form-signin">
+        <form action="/signedup" method="post">
+        {% csrf_token %}  
+          <h1 class="h3  mb-2 fw-normal">Please sign in</h1>
+      
+          <div class="form-floating">
+            <input type="name" name="name" class="form-control" id="floatingInput" placeholder="Enter your name">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating">
+            <input type="email" name="email" class="form-control" id="floatingInput" placeholder="Enter your Email">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" name="password"password class="form-control" id="floatingPassword" placeholder="Enter your Password">
+            <label for="floatingPassword">Password</label>
+           
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label>
+              <input type="checkbox" value="remember-me">Remember me
+            </label>
+          </div>
+          <button class="w-30 btn btn-lg btn-primary my-2" type="submit">Sign In</button><br>
+          <a href="/reset/" style="color: rgb(15, 15, 226);">Forgot Password?</a>
+       
+          <p class="mt-5 mb-3 text-muted">© 2021–2022</p>
+        </form>
+      </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <style>
+        html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+        .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      </style>
+
+
+  </body>
+</html>
+</body>
+</html>
+</body>
+</html>
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SignUp</title>
+    </head>
+    <body>
+        <div class="container">
+            <form action="/signedup" method="post">
+            {% csrf_token %}
+                <input type="name"  name="name"  placeholder=" Enter your name"><br>
+                <input type="email"  name="email"  placeholder=" Enter your Email"><br>
+                <input type="password" name="password" placeholder="Enter your password"><br>
+                <input type="submit" value="signup"><br>
+            </form>
+            <!-- <input type="submit" onclick="location.href=`{% url 'signup' %}`" value="signup">       -->
+        </div>
+        </body>
+    </body>
+    </html>
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+class User(AbstractUser):
+  pass
+
+
+class Student(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE, primary_key=True)
+    name = models.CharField(max_length=30, null=True, blank=True, default=None)
+    surname = models.CharField(max_length=50, null=True, blank=True, default=None)
+<form method="POST" action="{% url 'profile_edit' %}" class="" >
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save</button>q
+</form>
+def profile_edit(request):
+    user = request.student
+    form = StudentForm(request.POST or None, initial={'name': user.name,
+                                                      'surname': user.surname})
+    if request.method == 'POST':
+        if form.is_valid():
+            user.student.name = request.POST['name']
+            user.student.surname = request.POST['surname']
+
+            user.save()
+            return HttpResponseRedirect('index')
+
+    context = {
+        "form": form
+    }
+
+    return render(request, "registration/profile_edit.html", context)
